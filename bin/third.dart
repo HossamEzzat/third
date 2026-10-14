@@ -1,5 +1,10 @@
-import 'package:third/third.dart' as third;
 
-void main(List<String> arguments) {
-  print('Hello world: ${third.calculate()}!');
+
+import 'dart:io';
+
+void main() {
+ String? name;
+ name=stdin.readLineSync();
+ print("user name: $name");
+
 }
